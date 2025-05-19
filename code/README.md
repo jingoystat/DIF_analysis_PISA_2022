@@ -1,3 +1,5 @@
+## Simulation
+
 #### Proposed Method
 
 - `main_proposed_S1.R` to `proposed/main_proposed_S4.R`: Main scripts to run the proposed method under settings S1–S4.
