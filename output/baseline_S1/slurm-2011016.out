@@ -1,0 +1,29 @@
+==========================================
+SLURM_JOB_ID        = 2011016
+SLURM_NODELIST      = GPI-4-16
+SLURM_NTASKS        = 
+SLURM_CPUS_PER_TASK = 
+This SLURM script is running on host GPI-4-16
+Working directory is /home/jingoy/dif_benchmark_J15_p10
+==========================================
+Submitted batch job 2011017
+Submitted batch job 2011018
+Submitted batch job 2011019
+Submitted batch job 2011020
+Submitted batch job 2011021
+Submitted batch job 2011022
+Submitted batch job 2011023
+Submitted batch job 2011024
+Submitted batch job 2011025
+Submitted batch job 2011026
+Submitted batch job 2011027
+Submitted batch job 2011028
+Submitted batch job 2011029
+Submitted batch job 2011030
+Submitted batch job 2011031
+Submitted batch job 2011032
+Submitted batch job 2011033
+Submitted batch job 2011034
+Submitted batch job 2011035
+sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)

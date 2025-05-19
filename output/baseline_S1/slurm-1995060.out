@@ -1,0 +1,14 @@
+==========================================
+SLURM_JOB_ID        = 1995060
+SLURM_NODELIST      = GPI-4-19
+SLURM_NTASKS        = 
+SLURM_CPUS_PER_TASK = 
+This SLURM script is running on host GPI-4-19
+Working directory is /home/jingoy/dif_benchmark_J15_p10
+==========================================
+Submitted batch job 1995061
+Submitted batch job 1995062
+Submitted batch job 1995063
+Submitted batch job 1995064
+Submitted batch job 1995065
+Submitted batch job 1995066
