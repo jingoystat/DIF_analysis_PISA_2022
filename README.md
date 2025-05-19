@@ -22,8 +22,5 @@ The proposed method is applied to PISA 2022 data to analyze data from the mathem
 - `baseline/main_baseline_S1.R` to `baseline/main_baseline_S4.R`: Main scripts to run the baseline method under settings S1–S4.
 - `baseline/baseline_functions.R`: Source file containing core functions for the baseline method.
 
-#### Evaluation
-- The `evaluation` folder contains scripts for generating kendall's rank boxplots and computing MSEs for method comparisons.
-
 
 
