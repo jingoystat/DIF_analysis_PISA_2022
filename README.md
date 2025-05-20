@@ -30,6 +30,9 @@ Run `simulation-code/main_proposed_S1.R` to `simulation-code/main_proposed_S4.R`
 
 #### Evaluation
 
-Run `simulation-results-analysis/boxplot compare S1.R` to `simulation-results-analysis/boxplot compare S4.R` with N = 10000 and N = 20000 produces 8 plots in Figure 2 and Table 3.
-Run `simulation-results-analysis/import_data_S1_S3.R` and then run 
+Run `simulation-results-analysis/boxplot compare S1.R` to `simulation-results-analysis/boxplot compare S4.R` with N = 10000 and N = 20000 produces 8 plots in Figure 2 and Table 4.
+
+Run `simulation-results-analysis/import_data_S1_S3.R` and then run `mu_gamma_MSE.R` and `a_d_sigma_MSE.R` to obtain S1 and S3 of Tables 2-3.
+
+Run `simulation-results-analysis/import_data_S2_S4.R` and then run `mu_gamma_MSE.R` and `a_d_sigma_MSE.R` to obtain S2 and S4 of Tables 2-3.
 
