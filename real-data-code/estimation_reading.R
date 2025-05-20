@@ -3,9 +3,7 @@ library(quantreg)
 library(MASS)
 library(foreach)
 library(doParallel)
-#path <- "/Users/jingouyang/University of Michigan Dropbox/Jing Ouyang/DIF_da/"
-#path <- "/Users/jingoy/Dropbox/DIF_da/math/"
-#setwd(path)
+
 
 gauss=gaussHermiteData(n=35)#We use 35 Gaussian quadrature
 w=gauss$w
