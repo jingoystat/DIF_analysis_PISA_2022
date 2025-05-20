@@ -14,7 +14,7 @@ The proposed method is applied to PISA 2022 data to analyze data from the mathem
 - `simulation-code/main_proposed_S1.R` to `simulation-code/main_proposed_S4.R`: Main scripts to run the proposed method under settings S1–S4.
 - `simulation-code/functions.R`: Source file containing core functions for the proposed method.
 
-Running `simulation-code/main_proposed_S1.R` and `simulation-code/main_proposed_S2.R` with random seed 80-89 (each seed corresponds to 10 independent replications) and sample size N $\in \{10000, 20000\}$
+Running `simulation-code/main_proposed_S1.R` to `simulation-code/main_proposed_S4.R` with random seed 80-89 (each seed corresponds to 10 independent replications) and sample size N = 10000 and 20000 produces `simulation-output/proposed_S1` to `simulation-output/proposed_S4`, respectively.
 
 #### RMSD Method
 - `simulation-code/main_RMSD_S1.R` to `simulation-code/main_RMSD_S4.R`: Main scripts to run the RMSD method under settings S1–S4.
