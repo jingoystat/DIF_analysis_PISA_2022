@@ -29,7 +29,7 @@ Run `simulation-code/main_RMSD_S1.R` to `simulation-code/main_RMSD_S4.R` with ra
 
 Run `simulation-code/main_proposed_S1.R` to `simulation-code/main_proposed_S4.R` with random seed 80-89 (each seed corresponds to 10 independent replications) and sample size N = 10000 and 20000 produces `simulation-output/proposed_S1` to `simulation-output/proposed_S4`, respectively.
 
-#### Evaluation
+#### Results Evaluation
 
 Run `simulation-results-analysis/boxplot compare S1.R` to `simulation-results-analysis/boxplot compare S4.R` with N = 10000 and N = 20000 produces 8 plots in Figure 2 and Table 4.
 
@@ -39,5 +39,18 @@ Run `simulation-results-analysis/import_data_S2_S4.R` and then run `mu_gamma_MSE
 
 ### Real Data Application
 
+#### Data Preprocessing
+
 The raw data (`CY08MSP_STU_QQQ.SAS7BDAT` and `CY08MSP_STU_COG.SAS7BDAT`) can be downloaded [here](https://www.oecd.org/en/data/datasets/pisa-2022-database.html#data). Run `real-data/math_cleaning.R`, `real-data/science_cleaning.R`, and `real-data/reading_cleaning.R` produces cleaned datasets, saved in `real-data/math_cleaned_data.zip`, `real-data/science_cleaned_data.zip`, and `real-data/reading_cleaned_data.zip`, respectively.
+
+#### Analysis Results
+
+Run `real-data-code/estimation_math.R` to obtain estimation results by proposed method, saved in `real-data-output/math_proposed/`.
+
+Run `real-data-code/estimation_math_rmsd.R` to obtain estimation results by RMSD method, saved in `real-data-output/math_rmsd/`.
+
+Run `real-data-code/estimation_math_baseline.R` to obtain estimation results by baseline method, saved in `real-data-output/math_baseline/`.
+
+Based on estimation output and cleaned data, run `real-data-analysis/math_results_analysis.R` to produce country ranking in Table 6, histogram in Figure 3, and MDS plot Figure 4. Similar procedure can be applied to analysis on reading and science data.
+
 
