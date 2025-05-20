@@ -1,7 +1,7 @@
-## Supplemantary Code to manuscript ``Statistical-Analysis-of-Large-scale-Item-Response-Data-under-Measurement-Non-invariance``
+## Supplemantary Code to manuscript Statistical-Analysis-of-Large-scale-Item-Response-Data-under-Measurement-Non-invariance
 
 
-### Abstract 
+### Paper Abstract 
 
 With the process of globalization and advancements in technology, International Large-scale Assessments in education (ILSAs), such as the Programme for International Student Assessment (PISA) and the Trends in International Mathematics and Science Study (TIMSS), have become increasingly important in educational research and policy-making. They collect valuable data on education quality and performance development across many education systems worldwide, allowing countries to share techniques, organizational structures, and policies that have proven efficient and successful. 
 A key to analyzing ILSA data is an Item Response Theory (IRT) model, which is used to estimate the performance distributions of different groups (e.g., countries) and then produce a ranking. 
