@@ -39,5 +39,5 @@ Run `simulation-results-analysis/import_data_S2_S4.R` and then run `mu_gamma_MSE
 
 ### Real Data Application
 
-The raw data (`CY08MSP_STU_QQQ.SAS7BDAT` and `CY08MSP_STU_COG.SAS7BDAT`) can be downloaded [here](https://www.oecd.org/en/data/datasets/pisa-2022-database.html#data). Run `
+The raw data (`CY08MSP_STU_QQQ.SAS7BDAT` and `CY08MSP_STU_COG.SAS7BDAT`) can be downloaded [here](https://www.oecd.org/en/data/datasets/pisa-2022-database.html#data). Run `real-data/math_cleaning.R`, `real-data/science_cleaning.R`, and `real-data/reading_cleaning.R` produces cleaned datasets, saved in `real-data/math_cleaned_data.zip`, `real-data/science_cleaned_data.zip`, and `real-data/reading_cleaned_data.zip`, respectively.
 
