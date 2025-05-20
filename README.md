@@ -14,15 +14,22 @@ The proposed method is applied to PISA 2022 data to analyze data from the mathem
 - `simulation-code/main_proposed_S1.R` to `simulation-code/main_proposed_S4.R`: Main scripts to run the proposed method under settings S1–S4.
 - `simulation-code/functions.R`: Source file containing core functions for the proposed method.
 
-Running `simulation-code/main_proposed_S1.R` to `simulation-code/main_proposed_S4.R` with random seed 80-89 (each seed corresponds to 10 independent replications) and sample size N = 10000 and 20000 produces `simulation-output/proposed_S1` to `simulation-output/proposed_S4`, respectively.
+Run `simulation-code/main_proposed_S1.R` to `simulation-code/main_proposed_S4.R` with random seed 80-89 (each seed corresponds to 10 independent replications) and sample size N = 10000 and 20000 produces `simulation-output/proposed_S1` to `simulation-output/proposed_S4`, respectively.
 
 #### RMSD Method
 - `simulation-code/main_RMSD_S1.R` to `simulation-code/main_RMSD_S4.R`: Main scripts to run the RMSD method under settings S1–S4.
 - `simulation-code/functions_rmsd.R`: Source file containing core functions for the RMSD method.
 
+Run `simulation-code/main_RMSD_S1.R` to `simulation-code/main_RMSD_S4.R` with random seed 80, 82, 84, 86, 88 (each seed corresponds to 20 independent replications) and sample size N = 10000 and 20000 produces `simulation-output/rmsd_S1` to `simulation-output/rmsd_S4`, respectively.
+
 #### Baseline Method
 - `simulation-code/main_baseline_S1.R` to `simulation-code/main_baseline_S4.R`: Main scripts to run the baseline method under settings S1–S4.
 - `simulation-code/baseline_functions.R`: Source file containing core functions for the baseline method.
 
+Run `simulation-code/main_proposed_S1.R` to `simulation-code/main_proposed_S4.R` with random seed 80-89 (each seed corresponds to 10 independent replications) and sample size N = 10000 and 20000 produces `simulation-output/proposed_S1` to `simulation-output/proposed_S4`, respectively.
 
+#### Evaluation
+
+Run `simulation-results-analysis/boxplot compare S1.R` to `simulation-results-analysis/boxplot compare S4.R` with N = 10000 and N = 20000 produces 8 plots in Figure 2 and Table 3.
+Run `simulation-results-analysis/import_data_S1_S3.R` and then run 
 
