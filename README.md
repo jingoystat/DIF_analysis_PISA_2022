@@ -1,4 +1,4 @@
-## Supplemantary Code to manuscript Statistical-Analysis-of-Large-scale-Item-Response-Data-under-Measurement-Non-invariance
+## Supplemantary Code to manuscript "Statistical Analysis of Large-scale Item Response Data under Measurement Non-invariance: A Statistically Consistent  Method and Its Application to PISA 2022"
 
 
 ### Paper Abstract 
